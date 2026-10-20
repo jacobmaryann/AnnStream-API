@@ -7,6 +7,7 @@ import uploadToCloudinary from '../utils/CloudUpload.js';
 const registerUser = asyncHandler(async (req, res) => {
     const { username, email, password, role } = req.body;
 
+
     // Check if user already exists
     const existingUser = await userModel.findOne({ email });
     if (existingUser) {
