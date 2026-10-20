@@ -41,7 +41,7 @@ This is a production-ready RESTful API for a modern job application platform. Bu
 * **Status Updates:** Employers and Admins can view job applicants and update application statuses (`submitted`, `in-review`, `accepted`, `rejected`).
 
 ---
-## 📡 API Endpoints Overview
+## API Endpoints Overview
 
 ### Authentication & User Routes (`/api/users`)
 | Method | Endpoint | Access | Description |
