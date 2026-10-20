@@ -131,8 +131,6 @@ The API is organized around three main resource groups.
 
 Application submission uses `multipart/form-data` containing the required job ID, cover letter, and resume file.
 
-> Endpoint access labels and request formats should match the actual route and middleware implementation.
-
 ## Getting Started
 
 You can run AnnStream API locally to explore its endpoints and test its workflows.
